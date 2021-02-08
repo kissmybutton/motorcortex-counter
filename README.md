@@ -1,4 +1,4 @@
-# MotorCortex Anime
+# MotorCortex Counter
 
 ## Installation
 ```bash
