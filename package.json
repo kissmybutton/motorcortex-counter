@@ -1,14 +1,14 @@
 {
-  "name": "my-plugin-name",
-  "version": "0.0.1",
-  "description": "Your plugin description here",
+  "name": "@kissmybutton/motorcortex-counter",
+  "version": "1.0.0",
+  "description": "A MotorCortex plugin for animating number progress from a start to an end value.",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "browser": "dist/bundle.umd.js",
-  "author": "",
+  "author": "KissMyButton PC (kissmybutton.gr) <opensource@kissmybutton.gr>",
   "repository": {
     "type": "git",
-    "url": "Your git repo here"
+    "url": "https://github.com/kissmybutton/motorcortex-counter"
   },
   "license": "MIT",
   "engines": {
