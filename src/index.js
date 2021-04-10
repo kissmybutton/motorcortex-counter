@@ -1,10 +1,9 @@
-import Counter from './Incidents/Counter';
-
-const pkg = require('../package.json');
+import Counter from "./Incidents/Counter";
+import { name, version } from "../package.json";
 
 export default {
-  npm_name: pkg.name, // don't touch this
-  version: pkg.version, // don't touch this
+  npm_name: name, // don't touch this
+  version: version, // don't touch this
   incidents: [
     {
       exportable: Counter,
@@ -14,18 +13,18 @@ export default {
           type: "object",
           props: {
             count: {
-              type: 'number',
-            }
-          }
+              type: "number",
+            },
+          },
         },
         decimals: {
-          type: 'number',
+          type: "number",
           optional: true,
           min: 0,
           max: 20,
-          integer: true
-        }
+          integer: true,
+        },
       },
-    }
-  ]
+    },
+  ],
 };
