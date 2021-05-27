@@ -1,6 +1,6 @@
 {
   "name": "@kissmybutton/motorcortex-counter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A MotorCortex plugin for animating number progress from a start to an end value.",
   "main": "dist/motorcortex-counter.cjs.js",
   "module": "dist/motorcortex-counter.esm.js",
@@ -50,7 +50,7 @@
     ]
   },
   "peerDependencies": {
-    "@kissmybutton/motorcortex": "^7.0.0"
+    "@kissmybutton/motorcortex": ">= 6.4.1 < 8"
   },
   "devDependencies": {
     "@babel/cli": "7.14.3",
